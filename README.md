@@ -1,7 +1,7 @@
 # android_formwork
 
 #### 介绍
-MVPArms安卓程序开发模板
+MVPArms安卓程序开发模板，适合想要在mvparms中接入bugly的新手。关于mvparms框架有任何使用疑问，可以去jess神mvparms项目下的wiki中查看使用说明
 
 #### 软件架构
 本项目在MVPArms开源框架的基础上，接入了Bugly以及Tinker热修复，增加了混淆配置文件，以及一个自用的第三方library
