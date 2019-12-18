@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/titleBar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ll_title_bar_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+
+            <ImageView
+                android:id="@+id/left_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/left_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_16"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_title_bar_middle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/middle_text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:paddingRight="10dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_20"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/middle_view"
+                android:layout_width="1dp"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/middle_text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:paddingLeft="10dp"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_20"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/middle_icon"
+                android:layout_width="39dp"
+                android:layout_height="20dp"
+                android:visibility="gone" />
+
+            <EditText
+                android:id="@+id/middle_edit"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/type_green1"
+                android:maxLines="1"
+                android:paddingLeft="20dp"
+                android:textSize="@dimen/dimen_12"
+                android:visibility="gone" />
+            <!-- 后面将UI图片改回来 -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_title_bar_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:id="@+id/right_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/right_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_16"
+                android:padding="5dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="#eaebed" />-->
+
+</LinearLayout>

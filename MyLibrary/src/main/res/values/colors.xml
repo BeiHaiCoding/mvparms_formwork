@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="title">#222222</color>
+    <color name="text">#333333</color>
+    <color name="explain">#999999</color>
+    <color name="explain_alpha">#AA999999</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color><!--透明-->
+    <color name="red">#ffff0000</color>
+    <color name="type_blue1">#2F88FE</color>
+    <color name="back_gray">#EEEEEE</color>
+    <color name="back_gray11">#44999999</color>
+    <color name="back_gray1">#FFFFEE</color>
+
+    <color name="type_green1">#10CFC0</color> <!--按钮颜色-->
+
+    <!--<color name="title_back">#ffff0000</color>-->
+    <!--<color name="title_back">#ee7526</color>-->
+    <color name="title_back">#ED1A41</color>
+    <color name="title_back_alpha">#aa0dd1c3</color>
+    <color name="blue_1">#4373a1</color>
+
+</resources>

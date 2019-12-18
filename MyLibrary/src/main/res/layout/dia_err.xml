@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tip_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/err_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:text="title"
+        android:textColor="@color/title_back"
+        android:textSize="@dimen/dimen_22" />
+
+    <TextView
+        android:id="@+id/err_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="content"
+        android:textColor="@color/title_back"
+        android:textSize="@dimen/dimen_18" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/title_back" />
+
+    <TextView
+        android:id="@+id/err_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="退出"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/title_back"
+        android:textSize="@dimen/dimen_18" />
+</LinearLayout>
